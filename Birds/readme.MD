@@ -33,7 +33,7 @@ To get started with the bot, follow these steps:
 ```json
 {
   "boost": true, //if you want to skip the egg time
-  "limit": 5, //number of accounts run 1 a row
+  "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
   "country_time": "vi-VN" //timestamp base on the country
 }
