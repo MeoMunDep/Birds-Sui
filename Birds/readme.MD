@@ -32,6 +32,7 @@ To get started with the bot, follow these steps:
 
 ```json
 {
+  "delayEachAccount": [5, 8],
   "boost": true, //if you want to skip the egg time
   "limit": 5, //number of accounts run in a row
   "countdown": 300, //time to restarts all the accounts - count by seconds
