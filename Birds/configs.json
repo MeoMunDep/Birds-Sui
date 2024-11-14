@@ -1,1 +1,8 @@
-{ "limit": 100, "countdown": 300, "country_time": "en-US", "boost": true }
+{
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "boost": true,
+  "howManyBirdsToContribute": 1000,
+  "delayEachAccount": [5, 8]
+}
