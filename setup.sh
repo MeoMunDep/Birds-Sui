@@ -36,7 +36,7 @@ create_default_configs() {
   "boost": true,
   "howManyBirdsToContribute": 1000,
   "delayEachAccount": [5, 8],
-  "referralCode":""
+  "referralCode": "6713068747"
 }
 EOL
 }
@@ -112,7 +112,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            cd birds && node bot
             read -p "Press Enter to continue..."
             ;;
         4)
