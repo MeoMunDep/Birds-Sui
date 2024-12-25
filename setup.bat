@@ -1,5 +1,5 @@
 @echo off
-title name Bot
+title Bird Sui Bot
 color 0A
 
 cd ..
@@ -14,7 +14,7 @@ if exist node_modules (
 :MENU
 cls
 echo =================================================================
-echo    name BOT SETUP AND RUN SCRIPT
+echo    Bird Sui BOT SETUP AND RUN SCRIPT
 echo =================================================================
 echo.
 echo Current directory: %CD%
@@ -55,16 +55,12 @@ echo Creating configuration files...
 
 if not exist configs.json (
     echo {> configs.json
-    echo   "timeZone": "en-US",>> configs.json
-    echo   "rotateProxy": false,>> configs.json
-    echo   "skipInvalidProxy": false,>> configs.json
-    echo   "proxyRotationInterval": 2,>> configs.json
-    echo   "delayEachAccount": [5, 8],>> configs.json
-    echo   "timeToRestartAllAccounts": 300,>> configs.json
-    echo   "howManyAccountsRunInOneTime": 100,>> configs.json
-    echo   "doTasks": true,>> configs.json
-    echo   "playGames": true,>> configs.json
-    echo   "referralCode": "">> configs.json
+    echo   "limit": 100,>> configs.json
+    echo   "countdown": 300,>> configs.json
+    echo   "country_time": "en-US",>> configs.json
+    echo   "boost": true,>> configs.json
+    echo   "howManyBirdsToContribute": 1000,>> configs.json
+    echo   "delayEachAccount": [5, 8]>> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
@@ -97,7 +93,7 @@ if exist "..\node_modules" (
 ) else (
     echo Using node_modules from current directory
 )
-node bot
+cd birds && node bot
 pause
 goto MENU
 
