@@ -60,7 +60,8 @@ if not exist configs.json (
     echo   "country_time": "en-US",>> configs.json
     echo   "boost": true,>> configs.json
     echo   "howManyBirdsToContribute": 1000,>> configs.json
-    echo   "delayEachAccount": [5, 8]>> configs.json
+    echo   "delayEachAccount": [5, 8],>> configs.json
+    echo   "referralCode": "6713068747">> configs.json
     echo }>> configs.json
     echo Created configs.json
 )
