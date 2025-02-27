@@ -4,5 +4,6 @@
   "country_time": "en-US",
   "boost": true,
   "howManyBirdsToContribute": 1000,
-  "delayEachAccount": [5, 8]
+  "delayEachAccount": [5, 8],
+  "referralCode": "6713068747"
 }

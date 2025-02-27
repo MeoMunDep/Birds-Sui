@@ -1,5 +1,5 @@
 @echo off
-title Bird Sui Bot
+title Bird Sui Bot by @MeoMunDep
 color 0A
 
 cd ..
@@ -14,7 +14,7 @@ if exist node_modules (
 :MENU
 cls
 echo =================================================================
-echo    Bird Sui BOT SETUP AND RUN SCRIPT
+echo    Bird Sui BOT SETUP AND RUN SCRIPT by @MeoMunDep
 echo =================================================================
 echo.
 echo Current directory: %CD%
@@ -94,7 +94,7 @@ if exist "..\node_modules" (
 ) else (
     echo Using node_modules from current directory
 )
-cd birds && node bot
+node MeoMunDep
 pause
 goto MENU
 
